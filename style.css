@@ -1,0 +1,147 @@
+body { 
+	background-color:rgba(60, 60, 60, 60);
+  margin:0;
+  padding:0;
+}
+
+header {
+	padding:150px 160px 160px 150px;
+	background-image: url(back.jpg);
+  background-size:cover;
+  background-position: 40% 40%;
+}
+
+header > a {
+  text-decoration: none;
+  color:white;
+  text-shadow: 4px 4px black;
+  text-overflow: hidden;
+  font-family: courier;
+  text-align: right;
+  font-size: 1vw;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #1e1e28;
+  font-size: 18px;
+  text-align: center;
+}
+
+nav ul li {	
+  display:inline-block;
+  font-family: verdana;
+}
+
+nav ul li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;  
+}
+
+nav ul li a:hover {
+  background-color: #111;
+  color:aqua;
+  transition: 0.3s;
+  }
+
+  /*koniec nawigacji*/
+
+main section ol{
+  display:inline-block;
+  padding:0;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 60%;
+  background-color: #1e1e28;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  border-top: 2px solid coral;
+
+}
+
+ main section ol li
+ {
+  padding:0;
+  margin-left: 20px;
+  background-color: #1e1e28;
+  color:white;
+ }
+
+main section ol h2{
+
+  padding:0;
+  margin:0;
+  color:white;
+}
+
+main section div {
+  display: inline-block;
+  margin:0;
+  margin-top:20px;
+  margin-right: 20px;
+  padding:0;
+  position: absolute;
+  width: 37%;
+
+}
+
+main section div ul{
+  padding:0px 20px 0px 20px;
+  margin:0;
+  margin-left: 30px;
+  background-color: #1e1e28;
+  color:white;
+  border-top: 2px solid coral;
+ 
+}
+
+main section div ul li a{
+  color:white;
+  text-decoration:none;
+}
+
+main section div h2{
+  padding:0;
+  margin:0;
+  color:white;
+
+}
+ main section div ul li{
+  padding:0;
+  margin:0;
+  margin-left: 30px;
+  background-color: #1e1e28;
+  color:white;
+}
+
+main section article {
+  color:white;
+  margin-left: 20px;
+  margin-top:20px;
+  margin-right: 20px;
+  background-color: #1e1e28;
+  border-top: 2px solid coral;
+
+}
+
+main section article p {
+  text-align: justify;
+  padding:0px 10px 10px 10px;
+}
+main section article h3 {
+  font-family: courier;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+main section article iframe{
+  display:block;
+  margin:0 auto;
+}
