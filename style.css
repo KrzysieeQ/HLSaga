@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body { 
 	background-color:rgba(60, 60, 60, 60);
   margin:0;
@@ -19,6 +23,14 @@ header > a {
   font-family: courier;
   text-align: right;
   font-size: 1vw;
+  display: inline-block;
+  margin-left: 800px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+header > a:hover {
+  opacity: 1.0;
 }
 
 nav ul {
@@ -27,13 +39,14 @@ nav ul {
   padding: 0px;
   overflow: hidden;
   background-color: #1e1e28;
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
 }
 
 nav ul li {	
   display:inline-block;
   font-family: verdana;
+  min-width:150px;
 }
 
 nav ul li a {
@@ -50,35 +63,25 @@ nav ul li a:hover {
   transition: 0.3s;
   }
 
-  /*koniec nawigacji*/
+.dropDown ul {
+  display: none;  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+  background-color: rgba(30, 30, 40, 0.5);
+  transition:1s;
+  position: absolute;
+}
 
-main section ol{
-  display:inline-block;
-  padding:0;
-  margin-left: 20px;
-  margin-top: 20px;
-  width: 60%;
-  background-color: #1e1e28;
-  margin-bottom: 0;
-  box-sizing: border-box;
-  border-top: 2px solid coral;
+.dropDown ul li {
+  display:block;
+  font-size: 15px;
 
 }
 
- main section ol li
- {
-  padding:0;
-  margin-left: 20px;
-  background-color: #1e1e28;
-  color:white;
- }
-
-main section ol h2{
-
-  padding:0;
-  margin:0;
-  color:white;
+.dropDown li:hover ul{
+  display: block;
 }
+
+  /*end of nav-bar*/
 
 main section div {
   display: inline-block;
@@ -104,6 +107,11 @@ main section div ul{
 main section div ul li a{
   color:white;
   text-decoration:none;
+}
+main section div ul li a:hover{
+  color:#ffb733;
+  font-size: 18px;
+  transition: 0.5s;
 }
 
 main section div h2{
@@ -133,6 +141,8 @@ main section article {
 main section article p {
   text-align: justify;
   padding:0px 10px 10px 10px;
+  font-family: arial;
+  font-size: 18px;
 }
 main section article h3 {
   font-family: courier;
